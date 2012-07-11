@@ -20,7 +20,7 @@ public class logic {
           Collections.shuffle(ori);
           String n = "";
             for(int i=0; i<ori.size(); i++){
-               n += ori.get(i).toString();
+                   n += ori.get(i).toString();
             }
         return n;
     }
